@@ -38,14 +38,14 @@ $ git clone https://github.com/matheusjouan/Gerenciador-Funcionarios.git
 $ cd Gerenciador-Funcionarios
 ```
 
-# Banco de Dados (Postgress)
+### Banco de Dados (Postgress)
  - Criar uma database com nome: teste3lm
  - No arquivo **backend/ormconfig.json**, substituir as credênciais do B.D configurado na sua máquina
     - username: nome do usuário (linha 6)
     - password: senha do banco de dados (linha 7)
 
+### Iniciando o Servidor Backend (localhost:3333)
 ```shell
-# Iniciando o Servidor Backend (localhost:3333)
 $ cd backend
 $ yarn install
 
@@ -54,8 +54,10 @@ $ yarn typeorm migration:run
 
 ## Execução do backend
 $ yarn dev:server
+```
 
-# Iniciando a Aplicação Web (localhost:3000)
+### Iniciando a Aplicação Web (localhost:3000)
+```shell
 $ cd web
 $ yarn install
 ## Execução do front-end
