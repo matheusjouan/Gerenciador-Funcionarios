@@ -20,7 +20,7 @@ Aplicação para gerenciamento de funcionários, no qual se baseia em um CRUD. T
   - Context API;
   - Styled-Componnets
   - Unform;
-  - Yup/
+  - Yup
   - TypeScript;
   - Axios.
   
@@ -41,8 +41,9 @@ $ cd Gerenciador-Funcionarios
 ### Banco de Dados (Postgress)
  - Criar uma database com nome: teste3lm
  - No arquivo **backend/ormconfig.json**, substituir as credênciais do B.D configurado na sua máquina
-    - username: nome do usuário (linha 6)
-    - password: senha do banco de dados (linha 7)
+ 
+    - **username:** nome do usuário (linha 6)
+    - **password:** senha do banco de dados (linha 7)
 
 ### Iniciando o Servidor Backend (localhost:3333)
 ```shell
@@ -60,6 +61,7 @@ $ yarn dev:server
 ```shell
 $ cd web
 $ yarn install
+
 ## Execução do front-end
 $ yarn start
 ```
