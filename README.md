@@ -39,7 +39,7 @@ $ cd Gerenciador-Funcionarios
 
 # Banco de Dados (Postgress)
  - Criar uma database com nome: teste3lm
- - No arquivo    <font color="red">backend/ormconfig.json</font>, setar as credênciais do B.D
+ - No arquivo backend/ormconfig.json, setar as credênciais do B.D
     - username: nome do usuário (linha 6)
     - password: senha do banco de dados (linha 7)
 
