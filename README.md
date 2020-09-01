@@ -24,7 +24,7 @@ Aplicação para gerenciamento de funcionários, no qual se baseia em um CRUD. T
   - TypeScript;
   - Axios.
   
-  Padronização de Código:
+ -📔 Padronização de Código:
   - ESLint
   - Prettier
   - EditorConfig
@@ -39,7 +39,7 @@ $ cd Gerenciador-Funcionarios
 
 # Banco de Dados (Postgress)
  - Criar uma database com nome: teste3lm
- - Arquivo backend/ormconfig.json, setar as credênciais do B.D
+ - No arquivo    <font color="red">backend/ormconfig.json</font>, setar as credênciais do B.D
     - username: nome do usuário (linha 6)
     - password: senha do banco de dados (linha 7)
 
@@ -56,28 +56,22 @@ $ cd web
 $ yarn install
 ## Execução do front-end
 $ yarn start
-
+```
 ---
 
 ## :hammer: Features Implementadas
 
 ### Backend:
 
-  - [x] Criação de classes (Professor/aula/horários disponíveis);
-  - [x] Listagem de classes;
-  - [x] Criação de Conexões feita entre aluno interesado pela aula e professor;
-  - [x] Listagem total de número conexões já realizadas.
+  - [x] Criação da classe User;
+  - [x] CRUD de Users.
 
 ### Frontend:
-  - [x] Criação de classes (Professor/aula/horários disponíveis);
-  - [x] Listagem de classes através de um filtro de pesquisa (matéria, dia da semana, horário);
-  - [x] Criação de Conexões feita entre aluno interesado pela aula e professor através do whatspapp.
-  - [x] Listagem total de número conexões já realizadas.
+  - [x] Listagem geral de todos funcionários.
+  - [x] Visualização dos dados dos funcionários.
+  - [x] Edição dos dados dos funcionários.
+  - [x] Remoção de cadastro dos funcionários.
+  - [x] Validação dos dados de entrada.
+  - [x] ToastMessage trazendo feedback das ações para o usuário.
 
-### Mobile
-
-  - [x] Listagem de classes através de um filtro de pesquisa (matéria, dia da semana, horário);
-  - [x] Criação de Conexões feita entre aluno interesado pela aula e professor através do whatspapp.
-  - [x] Listagem total de número conexões já realizadas.
-  - [x] Possibilidade de Favoritar um professor (AsyncStorage)
   
