@@ -36,18 +36,22 @@ Aplicação para gerenciamento de funcionários, no qual se baseia em um CRUD. T
 ```shell
 $ git clone https://github.com/matheusjouan/Gerenciador-Funcionarios.git
 $ cd Gerenciador-Funcionarios
+```
 
 # Banco de Dados (Postgress)
  - Criar uma database com nome: teste3lm
- - No arquivo backend/ormconfig.json, setar as credênciais do B.D
+ - No arquivo **backend/ormconfig.json**, substituir as credênciais do B.D configurado na sua máquina
     - username: nome do usuário (linha 6)
     - password: senha do banco de dados (linha 7)
 
+```shell
 # Iniciando o Servidor Backend (localhost:3333)
 $ cd backend
 $ yarn install
+
 ## Criação das Tabelas
 $ yarn typeorm migration:run
+
 ## Execução do backend
 $ yarn dev:server
 
