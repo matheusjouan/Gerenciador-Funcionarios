@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, InputHTMLAttributes } from 'react';
+import React, { useEffect, useRef, InputHTMLAttributes } from 'react';
 
 import { useField } from '@unform/core';
 
