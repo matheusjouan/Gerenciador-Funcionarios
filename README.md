@@ -24,7 +24,7 @@ Aplicação para gerenciamento de funcionários, no qual se baseia em um CRUD. T
   - TypeScript;
   - Axios.
   
- -📔 Padronização de Código:
+- 📔 Padronização de Código:
   - ESLint
   - Prettier
   - EditorConfig
